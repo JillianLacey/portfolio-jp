@@ -6,18 +6,12 @@ import "../styles/App.css";
 export default class NavBar extends Component {
     render() {
         return (
-            <div className="container-fluid">
+            <div className="container-fluid fixed-top">
                 <div className="navbar row" id="navigation-area">
-                    <div className="col-md-8 navigation-items">
-                        <a href="#about" className="nav-link">
-                            ABOUT
-            </a>
-                        <a href="#work" className="nav-link">
-                            WORK
-            </a>
-                        <a href="#contact" className="nav-link" id="last-item">
-                            CONTACT
-            </a>
+                    <div className="col-md-10 navigation-items">
+                        <p className="nav-link header">Jillian Pichocki</p>
+                        <p className="nav-link">703.593.0752</p>
+                        <p className="nav-link">jpichocki@gmail.com</p>
                     </div>
                 </div>
             </div>

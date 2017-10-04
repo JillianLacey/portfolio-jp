@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-// import "../styles/contact.css";
+import "../styles/contact.css";
 
 export default class Contact extends Component {
 
@@ -14,7 +14,7 @@ export default class Contact extends Component {
                         <div className="col-md-8" id="contact-wrapper">
                             <h2 id="contact-title">Contact</h2>
                             <div id="contact-info">
-                                <p> Have questions or want to chat about a project? Feel free to drop a line via email, LinkedIn or Github. Thanks for checking out my portfolio!</p>
+                                <p> Interested in a new project? Feel free to reach out via email, LinkedIn or Github. Thanks for checking out my work!</p>
                                 <div id="name-and-links">
                                     <p id="name">Jillian Pichocki<br />
                                         Front-End Developer<br />

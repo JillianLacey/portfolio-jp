@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import "../styles/App.css";
-import flower from "../img/flower.svg";
+import "../styles/about.css";
+import blossom from '../img/blossom.svg';
+
+
 
 export default class About extends Component {
 
@@ -10,16 +12,16 @@ export default class About extends Component {
 
             <div id="about">
                 <div className="container">
-                    <div className="row test" id="text-wrapper">
+                    <div className="row" id="text-wrapper">
                         <div className="col-md-8 col-offset-md-2" id="text-container">
-                            <h2 id="about-title">Hello</h2>
+                            <h2 id="about-title">Hello.</h2>
                             <div id="about-me-text">
-                                <p>My name's Jillian Pichocki. I'm a front-end web developer and designer currently located in Nashville, TN. Before I started coding, I worked in project management. I find that this background helps me better plan and approach projects, keeping in mind the end goal throughout the entire process from design, to UX, to development.
+                                <p>My name's Jillian Pichocki. I'm a front-end web developer and designer currently located in Nashville, TN. Hailing from the Washington DC area, I grew up being heavily influenced by Fine Art in all forms. My background is in photography and I enjoy implementing new design trends into my projects.
                                         <br />
                                     <br />
-                                    I love solving problems and helping others take their interactive vision from a concept to reality. When I'm not coding, you'll find me taking walks with my dog, gardening or exploring the local food scene.</p>
+                                    When I'm not coding, you'll find me in a local coffee shop, checking out a new music venue, or losing track of time in a museum.</p>
                             </div>
-
+                            <img className="blossom-img" src={blossom} />
                         </div>
                     </div>
                 </div>
