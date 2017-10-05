@@ -11,7 +11,6 @@ export default class Footer extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-12 solid-footer">
-
                         </div>
                     </div>
                 </div>

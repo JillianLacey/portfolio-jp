@@ -6,10 +6,6 @@
     min-height: 100vh;
 }
 
-.container {
-    /* background: linear-gradient(-180deg, #ded9d3, #bb6f6d); */
-}
-
 #text-container {
     position: absolute;
     /* top: 50%; */
@@ -104,5 +100,12 @@
     #about {
         padding-top: 5em;
         padding-bottom: 2em;
+    }
+    #about-title {
+        font-size: 3rem;
+        z-index: 20;
+        position: relative;
+        display: inline-block;
+        margin: 30px 10px 10px 10px;
     }
 }
