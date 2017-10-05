@@ -14,7 +14,7 @@ export default class Contact extends Component {
                         <div className="col-md-8" id="contact-wrapper">
                             <h2 id="contact-title">Contact</h2>
                             <div id="contact-info">
-                                <p> Interested in a new project? Feel free to reach out via email, LinkedIn or Github. Thanks for checking out my work!</p>
+                                <p> Interested in a new project? Feel free to reach out via email or LinkedIn. To view more projects stop by my GitHub page. Thanks for checking out my work! </p>
                                 <div id="name-and-links">
                                     <p id="name">Jillian Pichocki<br />
                                         Front-End Developer<br />

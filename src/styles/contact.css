@@ -1,7 +1,7 @@
 #contact {
-    /* background: linear-gradient(-180deg, #23212E, #23212E), url('../img/flower.svg'); */
+    background: linear-gradient(-180deg, #23212E, #23212E);
     color: white;
-    height: 50vh;
+    height: 60vh;
     position: relative;
 }
 
@@ -13,10 +13,10 @@
     font-family: 'Cookie', cursive;
     font-size: 3rem;
     z-index: 20;
-    position: relative;
-    display: inline-block;
+    /* position: relative; */
+    /* display: inline-block; */
     padding: 0px 20px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 #contact-info p {
@@ -26,7 +26,7 @@
     font-family: 'Lato';
     letter-spacing: .05em;
     font-weight: 300;
-    padding: 3em 1em 1em 1em;
+    padding: 3em 1em 1em 0em;
 }
 
 .social-icons {
@@ -38,7 +38,7 @@
 }
 
 .social-icons:hover {
-    color: #E9B6D2;
+    color: #bb6f6d;
 }
 
 a:hover {
@@ -70,6 +70,7 @@ i {
 #icons {
     display: flex;
     justify-content: space-around;
+    padding: 7px;
 }
 
 #name-and-links {

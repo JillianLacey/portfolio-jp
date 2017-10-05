@@ -9,8 +9,8 @@ export default class NavBar extends Component {
             <div className="container-fluid fixed-top">
                 <div className="navbar row" id="navigation-area">
                     <div className="col-md-10 navigation-items">
-                        <p className="nav-link header">Jillian Pichocki</p>
                         <p className="nav-link">703.593.0752</p>
+                        <p className="nav-link ">www.jillianpichocki.com</p>
                         <p className="nav-link">jpichocki@gmail.com</p>
                     </div>
                 </div>

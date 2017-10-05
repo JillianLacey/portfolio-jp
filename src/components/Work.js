@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import "../styles/work.css";
+import "../styles/about.css";
 // import songsterImg from "../img/p1.jpg";
 // import gabbleImg from "../img/p2.jpg";
 // import canvasImg from "../img/p3.jpg";
@@ -8,14 +9,16 @@ import blogImg from "../img/p4.jpg";
 import canvasVid from "../media/canvas.mp4";
 import songsterVid from "../media/songster.mp4";
 import gabbleVid from "../media/gabble.mp4";
-import "../styles/about.css";
+import blogVid from "../media/blog.mp4";
 import blossom from '../img/blossom.svg';
+import blossomRb from '../img/blossom-rb.svg';
 
 export default class Work extends Component {
 
     render() {
         return (
             <div id="work">
+
                 <div className="container">
                     <div className="row project work-bg video-one">
                         <video className="d-block img-fluid col-md-8 project-img" src={canvasVid} controls controlsList="nodownload"></video>
@@ -27,6 +30,7 @@ export default class Work extends Component {
                             <a href="https://github.com/JillianPichocki/e-commerce-site-react" className="github-btn" target="_blank">View Code</a>
                         </div>
                     </div>
+                    <img className="blossom-img-rb" src={blossomRb} />
                     <div className="row project work-bg">
                         <video className="d-block img-fluid col-md-8 project-img" src={songsterVid} controls controlsList="nodownload"></video>
                         <div className="col-md-4" id="project-info">
@@ -34,7 +38,6 @@ export default class Work extends Component {
                             <p>This song-sharing app utilizes an API to return a list of song recommendations that users have contributed to the API. This project focused on managing state, props, lifecycles, and forms.</p>
                             <p>Technologies: React, Bootstrap, CSS, and HTML</p>
                             <a href="http://songster.surge.sh" className="live-btn" target="_blank">Live Site</a>
-
                             <a href="https://github.com/JillianPichocki/week-nine-react-music-app" className="github-btn" target="_blank">View Code</a>
                         </div>
                     </div>
@@ -51,7 +54,7 @@ export default class Work extends Component {
                     </div>
                     <img className="blossom-img" src={blossom} />
                     <div className="row project work-bg">
-                        <img className="d-block img-fluid col-md-8 project-img" src={blogImg} alt="First slide" />
+                        <video className="d-block img-fluid col-md-8 project-img" src={blogVid} controls controlsList="nodownload"></video>
                         <div className="col-md-4" id="project-info">
 
                             <h5>Taking the Long Way: Blog</h5>
