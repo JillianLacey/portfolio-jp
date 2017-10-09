@@ -77,6 +77,15 @@
     /* text-align: justify; */
 }
 
+.resume {
+    color: #be7070;
+    font-size: 1.2rem;
+}
+
+.resume:hover {
+    color: #df9595;
+}
+
 
 /* .test {
     background-image: url('../img/blossom.svg');
@@ -107,5 +116,14 @@
         position: relative;
         display: inline-block;
         margin: 30px 10px 10px 10px;
+    }
+    .blossom-img {
+        /* position: absolute; */
+        height: 300px;
+    }
+    .blossom-img-r {
+        /* position: absolute; */
+        /* right: 0px; */
+        width: 150px;
     }
 }

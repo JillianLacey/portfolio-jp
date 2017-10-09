@@ -6,14 +6,18 @@ import "../styles/App.css";
 export default class NavBar extends Component {
     render() {
         return (
-            <div className="container-fluid fixed-top">
-                <div className="navbar row" id="navigation-area">
-                    <div className="col-md-10 navigation-items">
-                        <p className="nav-link">703.593.0752</p>
-                        <p className="nav-link ">www.jillianpichocki.com</p>
-                        <p className="nav-link">jpichocki@gmail.com</p>
+            <div className="pos-f-t">
+                <div className="collapse" id="navbarToggleExternalContent">
+                    <div className="bg-inverse p-4">
+                        <h4 className="text-white">Collapsed content</h4>
+                        <span className="text-muted">Toggleable via the navbar brand.</span>
                     </div>
                 </div>
+                <nav className="navbar navbar-inverse bg-inverse">
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
             </div>
         );
     }

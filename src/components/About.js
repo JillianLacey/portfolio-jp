@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import "../styles/about.css";
 import blossomL from '../img/blossom.svg';
 import blossomR from '../img/blossom-r.svg';
+import resume from '../media/JillianPichockiResume.pdf';
 
 
 
@@ -19,10 +20,10 @@ export default class About extends Component {
                         <div className="col-md-7 col-offset-md-2" id="text-container">
                             <h2 id="about-title">Hello.</h2>
                             <div id="about-me-text">
-                                <p>My name's Jillian Pichocki. I'm a front-end web developer and designer currently located in Nashville, TN. Hailing from the Washington DC area, I grew up being heavily influenced by Fine Art in all forms. My background is in photography and I enjoy implementing new design trends into my projects.
+                                <p>My name is Jillian Pichocki. I am a Front-End Web Developer and Designer currently located in Nashville, TN. Hailing from the Washington, DC area, I grew up being heavily influenced by Fine Art in all forms. My background is in photography and I enjoy implementing new design trends into my projects.
                                         <br />
                                     <br />
-                                    When I'm not coding, you'll find me in a local coffee shop, checking out a new music venue, or losing track of time in a museum.</p>
+                                    I am a recent graduate from the Iron Yard's Front-End Web Development Bootcamp. My technical skills include: HTML 5, CSS3, JavaScript, React.js, Node.js, and agile. For additional skills and experience check out my resume.&nbsp; <a href={resume} target="blank"><i class="fa fa-cloud-download resume" aria-hidden="true"></i></a></p>
                             </div>
                             <img className="blossom-img" src={blossomL} />
 

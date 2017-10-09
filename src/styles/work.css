@@ -39,10 +39,7 @@
     box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
-.video-one {
-    /* background-color: rgb(239, 228, 227); */
-    background: linear-gradient( rgb(228, 203, 200), rgb(235, 223, 221)10%);
-}
+.video-one {}
 
 .project-vid {
     height: 90%;
