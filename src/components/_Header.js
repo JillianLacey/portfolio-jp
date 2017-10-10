@@ -15,6 +15,24 @@ export default class NavBar extends Component {
                     </div>
                 </div>
             </div>
+
+
+            <div className="container">
+                <div className="row align-items-start">
+                    <div className="col">
+                        703.593.0752
+          </div>
+                    <div className="col">
+                        www.jillianpichocki.com
+          </div>
+                    <div className="col">
+                        jpichocki@gmail.com
+          </div>
+
+                </div>
+            </div>
+
+
         );
     }
 }

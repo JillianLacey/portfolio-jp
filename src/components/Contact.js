@@ -18,7 +18,8 @@ export default class Contact extends Component {
                                 <div id="name-and-links">
                                     <p id="name">Jillian Pichocki<br />
                                         Front-End Developer<br />
-                                        jpichocki@gmail.com</p>
+                                        jpichocki@gmail.com<br />
+                                        703.593.0752</p>
                                     <div id="icons">
                                         <a href="https://github.com/JillianPichocki" target="_blank"><i className="fa fa-github-square social-icons" id="github" aria-hidden="true"></i></a>
                                         <a href="https://www.linkedin.com/in/jillianpichocki/" target="_blank"><i className="fa fa-linkedin-square social-icons" aria-hidden="true"></i></a>
