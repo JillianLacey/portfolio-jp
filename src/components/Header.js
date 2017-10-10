@@ -11,7 +11,7 @@ export default class NavBar extends Component {
                     <div className="navigation-items">
 
                         <div className="col">
-                            <p className="nav-text"><a href="mailto:jpichocki@gmail.com" className="nav-link nav-text">www.jillianpichocki.com</a></p>
+                            <p className="nav-text">www.jillianpichocki.com </p>
                         </div>
                     </div>
                 </div>

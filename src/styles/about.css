@@ -127,3 +127,15 @@
         width: 150px;
     }
 }
+
+@media (max-width: 768px) {
+    /* #about-me-text {
+        font-size: 1em;
+        padding: 2em 1em 1em 1em;
+    } */
+    #work h5 {
+        font-weight: bold;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+}

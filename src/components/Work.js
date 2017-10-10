@@ -18,11 +18,10 @@ export default class Work extends Component {
     render() {
         return (
             <div id="work">
-
                 <div className="container">
                     <div className="row project work-bg video-one">
-                        <video className="d-block img-fluid col-md-8 project-vid" src={canvasVid} poster={canvasImg} controls controlsList="nodownload"></video>
-                        <div className="col-md-4" id="project-info">
+                        <video className="d-block img-fluid col-lg-8 project-vid" src={canvasVid} poster={canvasImg} controls controlsList="nodownload"></video>
+                        <div className="col-lg-4 col-md-12" id="project-info">
                             <h5>Canvas: E-Commerce Site</h5>
                             <p>This mock e-commerce furniture site was built with React. The purpose behind this site was to utilize the React framework with React Routing to dynamically generate URL endpoints for a detail element page on a parent element page using React Router 4. </p>
                             <p>Technologies: React, React-Router, Bootstrap, JSX, CSS</p>
@@ -32,8 +31,8 @@ export default class Work extends Component {
                     </div>
                     <img className="blossom-img-rb" src={blossomRb} />
                     <div className="row project work-bg">
-                        <video className="d-block img-fluid col-md-8 project-vid" src={songsterVid} poster={songsterImg} controls controlsList="nodownload"></video>
-                        <div className="col-md-4" id="project-info">
+                        <video className="d-block img-fluid col-lg-8 project-vid" src={songsterVid} poster={songsterImg} controls controlsList="nodownload"></video>
+                        <div className="col-lg-4 col-md-12" id="project-info">
                             <h5>Songster: Song Sharing App</h5>
                             <p>This song-sharing app utilizes an API to return a list of song recommendations that users have contributed to the API. This project focused on managing state, props, lifecycles, and forms.</p>
                             <p>Technologies: React, Bootstrap, JSX, CSS</p>
@@ -43,8 +42,8 @@ export default class Work extends Component {
                     </div>
 
                     <div className="row project work-bg">
-                        <video className="d-block img-fluid col-md-8 project-vid" src={gabbleVid} poster={gabbleImg} controls controlsList="nodownload"></video>
-                        <div className="col-md-4" id="project-info">
+                        <video className="d-block img-fluid col-lg-8 project-vid" src={gabbleVid} poster={gabbleImg} controls controlsList="nodownload"></video>
+                        <div className="col-lg-4 col-md-12" id="project-info">
                             <h5>Gabble: Social Site</h5>
                             <p>Gabble is a social site app that allows users to signup for an account, login, create and delete posts, like and unlike posts, and also view a list of a comment's likes.</p>
                             <p>Technologies: Node.js, Express, Sequelize, PostgreSQL, CSS, Mustache, and Amazon Web Services</p>
@@ -54,8 +53,8 @@ export default class Work extends Component {
                     </div>
                     <img className="blossom-img" src={blossom} />
                     <div className="row project work-bg">
-                        <video className="d-block img-fluid col-md-8 project-vid" src={blogVid} poster={blogImg} controls controlsList="nodownload"></video>
-                        <div className="col-md-4" id="project-info">
+                        <video className="d-block img-fluid col-lg-8 project-vid" src={blogVid} poster={blogImg} controls controlsList="nodownload"></video>
+                        <div className="col-lg-4 col-md-12" id="project-info">
 
                             <h5>Taking the Long Way: Blog</h5>
                             <p>Leveraging an API, this app allows the user to post a message and then view all messages posted to the API. When you click on a blog title it takes you to a component that dynamically renders with the blogs id as an endpoint.</p>

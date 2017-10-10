@@ -1,7 +1,5 @@
 body {
   /* background: #23212E; */
-  /* background: linear-gradient(-180deg, #ded9d3, #bb6f6d), url(https://www.toptal.com/designers/subtlepatterns/patterns/cheap_diagonal_fabric.png); */
-  /* background: linear-gradient( rgba(222, 217, 211, 0.32), rgba(187, 110, 109, 0.8)), url(https://www.toptal.com/designers/subtlepatterns/patterns/cheap_diagonal_fabric.png); */
   background: linear-gradient( rgba(222, 217, 211, 0.32), rgba(187, 110, 109, 0.8));
 }
 
@@ -20,8 +18,12 @@ body {
   display: inline;
   font-size: .9em;
   font-family: 'Lato';
-  letter-spacing: .3em;
+  letter-spacing: .2em;
   /* padding: 0px 100px; */
+}
+
+.nav-text:hover {
+  color: white;
 }
 
 .header-bar {

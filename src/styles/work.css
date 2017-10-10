@@ -39,8 +39,6 @@
     box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
-.video-one {}
-
 .project-vid {
     height: 90%;
 }
@@ -106,5 +104,27 @@
     }
     #work h5 {
         padding-top: 1em;
+    }
+}
+
+
+/* @media (max-width: 768px) {
+    .project {
+        padding: 2rem .5rem;
+        margin: 1.5rem .5rem;
+    }
+    #work h2 {
+        padding-left: 0px;
+    }
+    #work h5 {
+        padding-top: 1em;
+    }
+} */
+
+@media (min-width: 768px) {
+    #work h5 {
+        /* font-weight: bold; */
+        /* padding-bottom: 10px; */
+        padding-top: 20px;
     }
 }

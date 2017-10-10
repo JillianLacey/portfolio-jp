@@ -106,6 +106,6 @@ i {
     }
     #contact-wrapper {
         padding-top: 8em;
-        padding-bottom: 4em;
+        /* padding-bottom: 4em; */
     }
 }
